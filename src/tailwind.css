@@ -1,0 +1,21 @@
+@tailwind base;
+
+a {
+  @apply underline;
+}
+
+@tailwind components;
+
+.btn {
+  @apply inline-block py-3 px-3 leading-none rounded shadow font-semibold text-sm
+}
+
+.btn-indigo {
+  @apply bg-indigo-500 text-white;
+}
+
+.btn-indigo:hover {
+  @apply bg-indigo-600;
+}
+
+@tailwind utilities;
